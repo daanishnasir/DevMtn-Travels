@@ -17,6 +17,7 @@ angular.module('devmtnTravel').service('mainSrv', function(){
         price: 1112
     }];
 
+
 		this.packageInfo = [{
 				city: "Bordeaux",
 				country: "France",
@@ -81,5 +82,5 @@ angular.module('devmtnTravel').service('mainSrv', function(){
 				id: 3544,
 				price: 1722.12
 			},
-		]
-})
+		];
+});
